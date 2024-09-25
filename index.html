@@ -10,6 +10,22 @@
         body {
   font-family: 'Times New Roman', Times, serif;
 }
+.container {
+    display: flex;
+    align-items: start ;
+    justify-content: left;
+    padding-left: 50px;
+}
+.photographer {
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+}
+.photographertext {
+    font-size: 20px;
+    padding-left: 360px;
+    float: left;
+}
     </style>
 </head>
 <body>
@@ -39,9 +55,23 @@
         <h1>Home</h1>
     </header>
     <main>
-        <img src="images/photographer.jpg" alt="black and white image of photographer" height="600" width="500">
-        <h2>Eileen Velez Tyler</h2>
-        <h3>Photography Studio</h3>
+        <div class="container">
+            <div class="photographer">
+              <img src="images/photographer.jpg" alt="black and white image of photographer" height="500" width="500">
+            </div>
+            <div class="photographertext">
+              <h2>Eileen Velez Tyler</h2>
+              <h3>Photography Studio</h3>
+              <br>
+              <h3>BOOK NOW</h3>
+              <br>
+              <h3>Instagram</h3>
+              <h3>Twitter</h3>
+              <h3>Facebook</h3>
+            </div>
+        </div>    
+
+        
     </main>
     <footer>
         <p>&copy; Copyright 2024 EVT Photography | <a href="https://github.com/EileenVT" target="_blank">Github</a></p>
