@@ -5,27 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+  font-family: 'Times New Roman', Times, serif;
+}
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html" target="_self">Home</a></li>
-                <li><a href="portfolio.html" target="_self">Portfolio</a></li>
-                <li><a href="family.html" target="_self">Family</a></li>
-                <li><a href="newborn.html" target="_self">Newborn</a></li>
-                <li><a href="portrait.html" target="_self">Portrait</a></li>
-                <li><a href="booking.html" target="_self">Booking</a></li>
-                <li><a href="about.html" target="_self">About Us</a></li>
-                <li><a href="testimonials.html" target="_self">Testimonials</a></li>
-                <li><a href="faq.html" target="_self">FAQ</a></li>
-                <li><a href="contact.html" target="_self">Contact Us</a></li>
-            </ul>
-        </nav>
-        <img src="images/logo.jpg" alt="image of store logo" height="200" width="200">
+        <div class="navbar">
+                <a href="index.html" target="_self">Home</a>
+                <a href="booking.html" target="_self">Booking</a>
+                <a href="about.html" target="_self">About Us</a>
+                <a href="testimonials.html" target="_self">Testimonials</a>
+                <a href="faq.html" target="_self">FAQ</a>
+                <a href="contact.html" target="_self">Contact Us</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="fa fa-caret-down"></i><a href="portfolio.html" target="_self">Portfolio</a>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="family.html" target="_self">Family</a>
+                        <a href="newborn.html" target="_self">Newborn</a>
+                        <a href="portrait.html" target="_self">Portrait</a>
+                    </div>    
+                </div> 
+                <div class="logo">
+                <img src="images/logo.PNG" alt="image of store logo" height="80" width="80">
+                </div>
+        </div>
+
+        
         <h1>Home</h1>
     </header>
     <main>
+        <img src="images/photographer.jpg" alt="black and white image of photographer" height="600" width="500">
+        <h2>Eileen Velez Tyler</h2>
+        <h3>Photography Studio</h3>
     </main>
     <footer>
         <p>&copy; Copyright 2024 EVT Photography | <a href="https://github.com/EileenVT" target="_blank">Github</a></p>
