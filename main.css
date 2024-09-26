@@ -64,3 +64,13 @@
   h1 {
     text-align: center;
   }
+  #footer {
+    overflow: hidden;
+    background-color: #a59d9d;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+  }
